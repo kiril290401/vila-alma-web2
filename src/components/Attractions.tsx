@@ -1,6 +1,6 @@
 import React from 'react'
 import { attractions } from '@/lib/attractions/data'
-
+import Image from 'next/image'
 const Attractions = () => {
   return (
     <section id="забележителности" className="w-full py-20 bg-gradient-to-b from-white to-gray-100">
@@ -25,9 +25,10 @@ const Attractions = () => {
             {/* Image */}
             <div className="relative aspect-video w-full overflow-hidden">
               <div className="absolute inset-0 z-10 bg-black/20 hover:bg-black/5 transition-colors duration-300" />
-              <img
+              <Image
                 src={attraction.image}
                 alt={attraction.name}
+                fill
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
