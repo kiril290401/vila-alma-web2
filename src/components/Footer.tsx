@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Información de contacto */}
           <div>
-            <h3 className="text-xl font-semibold mb-4 text-[#8b7355]">Vila Alma</h3>
+            <h3 className="text-xl font-semibold mb-4 text-[#8b7355]">Къща за гости Алма</h3>
             <div className="space-y-2 text-gray-300 flex flex-col items-center md:items-start">
               <Link href={`tel:${telephoneNumber}`} className="flex items-center gap-2">
                 {telephoneNumber}
@@ -47,7 +47,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4 text-[#8b7355]">Информация</h3>
             <div className="space-y-2 text-gray-300 text-sm">
-              <p>Открийте спокойствието на Черноморието в нашия уютен комплекс.</p>
+              <p>Къща за гости „Алма“ – мястото, където комфортът среща спокойствието.</p>
               <p>Резервирайте своето място за незабравими моменти.</p>
             </div>
           </div>
