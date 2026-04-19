@@ -1,19 +1,5 @@
 User-agent: *
 Allow: /
 
-# Block access to admin areas
-Disallow: /admin/
-Disallow: /api/private/
-
-# Allow access to CSS, JS, and image files
-Allow: *.css
-Allow: *.js
-Allow: *.png
-Allow: *.jpg
-Allow: *.jpeg
-Allow: *.gif
-Allow: *.svg
-Allow: *.ico
-
 # Sitemap
-Sitemap: https://vila-alma.com/sitemap.xml
+Sitemap: https://guest-house-alma.com/sitemap.xml
