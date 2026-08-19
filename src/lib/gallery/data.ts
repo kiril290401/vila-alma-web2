@@ -1,5 +1,4 @@
 export const images = [
-  "/gallery/gallery-img1.webp",
   "/gallery/gallery-img2.webp",
   "/gallery/gallery-img3.webp",
   "/gallery/gallery-img4.webp",
@@ -8,4 +7,11 @@ export const images = [
   "/gallery/gallery-img7.webp",
   "/gallery/gallery-img8.webp",
   "/gallery/gallery-img9.webp",
+  "/gallery/gallery-img10.webp",
+  "/gallery/gallery-img11.webp",
+  "/gallery/gallery-img12.webp",
+  "/gallery/gallery-img13.webp",
+  "/gallery/gallery-img14.webp",
+  "/gallery/gallery-img15.webp",
+  "/gallery/gallery-img16.webp",
 ]
